@@ -5,7 +5,7 @@ agent any
     stages {
         
 
-        stage ("1st stage : Git checkout "){
+        stage (" Git checkout hazem-soussi/front_app"){
             steps{
         git branch: 'main', 
             url: 'https://github.com/hazem-soussi/front_app'
